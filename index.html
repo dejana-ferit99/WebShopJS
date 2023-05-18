@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Web Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+  </head>
+  <body>
+      <h1>Web Shop</h1>
+    
+    <div class="cart-container">
+        <button class="cart-button">Cart <span class="cart-badge">0</span></button>
+    </div>
+    <div class="buttons">
+      <button class="ascPriceButton">Sort Ascending Price</button>
+      <button class="descPriceButton">Sort Descending Price</button>
+      <button class="AZButton">Sort Products A to Z</button>
+      <button class="ZAButton">Sort Products z to A</button>
+    </div>
+    
+
+    <div class="items-grid">
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="cartTitle">Cart</h2>
+        <ul class="cart-items"></ul>
+        <p>Total: <span class="cart-total">$0.00</span></p>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+
+    <div class="modal-2">
+      <div class="modal-content">
+        <span class="close-2">&times;</span>
+        <h2>Items Bought!</h2>
+        <p>Check your mail for more informations.</p>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
